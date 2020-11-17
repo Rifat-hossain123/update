@@ -1,0 +1,580 @@
+/* Extra small devices (phones, 992px and down) */
+
+body{
+	background-image: url(img/background.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+
+	 animation-name: table;
+  animation-duration: 8s;
+  	animation-iteration-count: infinite;
+
+}
+
+@keyframes table {
+    25%{background-image: url(img/html.jpeg);}
+    50%{background-image: url(img/r3.jpg);}
+    100% {background-image: url(img/Web2.jpg);}
+}
+
+
+.head{
+    font-family: 'Sansita Swashed', cursive;
+    max-width: 100%;
+	width: 400px;
+	height: 230px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+
+h1{
+	font-size: 2.5rem;
+	max-width: 100%;
+	color: white;
+	transition: font-size 1s;
+	text-shadow: 5px 5px  black;
+}
+h1:hover{
+	font-size: 3.5rem;
+}
+
+
+.contaier{
+	max-width: 100%;
+	background-color: #b3ffff;
+	margin: 0 auto;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/*...................start header............*/
+
+header{
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 1px 2px red;
+	max-width: 100%;
+  }
+header:hover{
+	font-family: 'Sansita Swashed', cursive;
+	font-family: 'Sansita Swashed', cursive;
+}
+.profail-img{
+	box-shadow: 2px 2px;
+	height: 300px;
+	max-width: 50%;
+	width: 300px;
+	margin: 15px 15px 10px 250px;
+	float: left;
+	transition: width 2s, transform 2s;
+
+} 
+.profail-img:hover{
+	box-shadow: 3px 3px 10px blue;
+
+	transform: rotate(360deg);
+
+}
+
+.header-bio{
+	color: #668cff;
+	max-width: 100%;
+	padding: 0px;
+	margin: 15px 15px 10px 250px;
+
+}
+.header-bio:hover{
+	color: green;
+}
+
+	
+
+
+/*.................................end header........................*/
+/*................clear.................*/
+.div-clear{
+	clear: both;
+}
+
+
+/*....................end clear.............................*/
+/*...................start about....................*/
+
+.about-head{
+	float: left;
+	width: 0%;
+}
+
+.div-clear{
+	clear: both;
+}
+
+.about-description{
+	color: white;
+	padding: 0px;
+	background-color: black;
+	float:right;
+	width: 100%;
+}
+
+.about-description:hover{
+	color: black;
+	background-color: white;
+}
+/*................end about..................*/
+/*...................start clear.....................*/
+
+hr{
+	border: solid #4d88ff 3px;
+	max-width: 100%;
+	margin: 10px auto;
+	border-bottom: none;
+}
+/*....................end clear.............................*/
+/*.............start footer...............*/
+
+.marquee{
+	float: left;
+	height: 10px;
+	width: 100%;
+	color: black;
+}
+.marquee:hover{
+	text-shadow: 1px 1px white;
+}
+
+/*.............end footer...............*/
+
+/*.............start container 2 ..............*/
+
+/*.............start header...............*/
+
+.header-2{
+
+	max-width: 100%;
+	display: inline;
+	text-align: center;
+	font-size: 35px;
+	background-color: white;
+}
+
+
+
+
+
+/*..............start skill...............*/
+
+.skills{
+	max-width: 90%;
+	font-size: 25px;
+	text-align: center;
+	background-color: gray;
+	height: 200px;
+	margin:20px;
+	transition: width 1s;
+}
+
+.skills:hover{
+	box-shadow: 10px 3px white;
+	max-width: 100%;
+	background-color:  #a6a6a6;
+}
+
+.skills li{
+	max-width: 100%;
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+
+}
+
+
+
+.table{
+	background-color: #333333;
+	height: 40px;
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.box{
+	background-color: #333333;
+	height: 40px;
+	max-width: 60%;
+	margin: 0px;
+	padding: 0px;
+	transition: 1s;
+
+	 animation-name: box;
+  animation-duration: 2s;
+  	animation-iteration-count: infinite;
+
+}
+.box:hover{
+	max-width: 90%;
+	height: 40px;
+	background-color:#ffffff;
+	transition: 1s;
+}
+
+
+
+
+
+
+.css-tab{
+	background-color: #333333;
+	height: 40px;
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.css-box{
+	background-color: #333333;
+	height: 40px;
+	max-width: 60%;
+	margin: 0px;
+	padding: 0px;
+	transition: 1s;
+
+	 animation-name: box;
+  animation-duration: 2s;
+  	animation-iteration-count: infinite;
+
+}
+
+@keyframes box{
+	25% {background-color: #333333;}
+	100% {background-color: white;}
+}
+
+
+.css-box:hover{
+	max-width: 80%;
+	height: 40px;
+	background-color:#ffffff;
+	transition: 1s;
+
+}
+
+/*.................end skill..............*/
+
+
+/*.................start animation..................*/
+
+.animation {
+  text-align: center;
+  max-width: 100%;
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url(img/succes2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  background-attachment: fixed;
+
+}
+
+@keyframes example {
+    25%{background-image: url(img/succes.jpg);}
+    50%{background-image: url(img/succes2.jpg);}
+    100% {background-image: url(img/succes3.jpg);}
+}
+
+
+.animation-text{
+	font-family: 'Dancing Script', cursive;
+	color: red;
+	text-shadow: 3px 3px green;
+	height: 500px;
+	padding: 100px;
+	position: border-bottom;
+	max-width: 100%;
+    text-align: center;
+	font-size: 50px;
+}
+
+
+.text-name{
+	float: right;
+}
+
+/*................stop animation..................*/
+
+/*..............start text...............*/
+
+.text{
+	font-size: 20px;
+	background-color: #1affff;
+	margin: 0px;
+	padding: 20px;
+}
+
+/*.................stop text..................*/
+
+/*......................start work-contact................*/
+
+
+.work-contact{
+	height: 420px;
+	max-width: 100%;
+	background-color: #00e6e6;
+	padding: 0px;
+}
+
+.work-text{
+	height: 50px;
+	width: 100%;
+	position: center;
+	text-align: center;
+	font-size: 30px;
+	background-color: #00b3b3;
+}
+
+
+.work-contact a img{
+	height: 150px;
+	width: 1000px;
+	max-width:100%;
+	margin: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	}
+
+.work-contact a img:hover{
+	box-shadow: 5px 5px 5px 5px gray;
+}
+/*..........................stop work-contact................*/
+
+.contact-head{
+	max-width: 100%;
+	font-size: 30px;
+	background-color: #bfbfbf;
+	color:  #1a1a1a;
+	position: center;
+	text-align: center;
+}
+
+.contact-head:hover{
+	background-color:#80c1ff;
+}
+
+/*..............start contact..............*/
+.contact-table{
+	height: 2900px;
+	width: 1000px;
+	max-width: 1000%;
+	background-color: skyblue;
+	background-size: cover;
+	margin: 0px 10px 0px 20px ;
+	padding: 20px;
+	transition:  2s;
+	box-sizing: border-box;
+}
+.contact-table:hover{
+	max-width: 100%;
+	width: 1000px;
+	background-color: gray;
+	transition: 2s;
+}
+
+
+.contact-box{
+	font-size: 25px;
+	float: left ;
+	margin: 20px;
+	padding: 10px;
+	height: 420px;
+	max-width: 100%;
+	width: 900px;
+	background-color:  #1a1aff;
+	transition: width 1s height 1s;
+}
+.contact-box:hover{
+	background-color: #d9d9d9;
+	max-width: 95%;
+	height: 430px;
+}
+
+
+.contact-box2{
+	font-size: 25px;
+	float: left ;
+	margin: 20px;
+	padding: 10px;
+	height: 420px;
+	max-width: 100%;
+	width: 1000px;
+	background-color: #e6e6e6;
+	transition: width 1s height 1s;
+}
+.contact-box2:hover{
+	background-color: white;
+	max-width: 95%;
+	height: 430px;
+}
+
+
+.contact-box3{
+	font-size: 25px;
+	float: left; ;
+	margin: 20px;
+	padding: 10px;
+	height: 420px;
+	max-width: 100%;
+	width: 900px;
+	background-color: #6666ff;
+	transition: width 1s height 1s;
+}
+.contact-box3:hover{
+	background-color:  #66b3ff;
+	max-width: 95%;
+	height: 430px;
+}
+
+
+
+.contact-box4{
+	font-size: 25px;
+	float: left; 
+	margin: 20px;
+	padding: 10px;
+	height: 420px;
+	max-width: 100%;
+	width: 900px;
+	background-color: #ffffff;
+	transition: width 1s height 1s;
+}
+.contact-box4:hover{
+	background-color:  #66b3ff;
+	max-width: 95%;
+	height: 430px;
+}
+
+.contact-box5{
+	font-size: 25px;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+	height: 420px;
+	max-width: 100%;
+	width: 900px;
+	background-color: #ff7733;
+	transition: width 1s height 1s;
+}
+.contact-box5:hover{
+	background-color:  #00ffcc;
+	max-width: 95%;
+	height: 430px;
+}
+
+
+.contact-box6{
+	font-size: 25px;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+	height: 420px;
+	max-width: 100%;
+	width: 900px;
+	background-color: red;
+	transition: width 1s height 1s;
+}
+.contact-box6:hover{
+	background-color:  #ff1a75;
+	max-width: 95%;
+	height: 430px;
+}
+
+
+.img-fb{
+	padding: 3px;
+	height: 300px;
+	width: 900px;
+	max-width: 100%;
+}
+
+.img-gmail{
+	padding: 3px;
+	height: 300px;
+	width: 900px;
+	max-width: 100%;
+}
+.img-outlook{
+	padding: 3px;
+	height: 300px;
+	width: 900px;
+	max-width: 100%;
+}
+.img-twitter{
+	padding: 3px;
+	height: 300px;
+	width: 900px;
+	max-width: 100%;
+}
+
+
+button{
+	font-size: 30px;
+	height: 50px;
+	width: 100%;
+	max-width: 100%;
+	background-color: #80ffff;
+}
+button:hover{
+	background-color: #00e68a;
+	max-width: 100%;
+}
+
+
+/*.............start link................*/
+
+.contact-box2 a{
+	color: black;
+	max-width: 100%;
+	font-size: 35px;
+}
+
+
+.contact-box3 a{
+	color: black;
+	max-width: 100%;
+	font-size: 35px;
+}
+
+/*.............stop link................*/
+
+
+/*..............end contact..............*/
+
+
+
+/*...........start footer...................*/
+
+.footer{
+	width: 100%;
+	max-width: 100%;
+	margin: 0px;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	position: center;
+	text-align: center;
+}
+
+.footer a{
+	color: #e6f2ff;
+}
+
+/*...........stop footer...................*/
